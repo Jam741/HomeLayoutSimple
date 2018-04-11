@@ -16,6 +16,6 @@
 ## Step 2. Add the dependency
 ```
 	dependencies {
-	        compile 'com.github.Jam741:HomeLayoutSimple:v1.0.0'
+	        compile 'com.github.Jam741:HomeLayoutSimple:latest.integration'
 	}
 ```

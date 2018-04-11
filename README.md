@@ -1,7 +1,5 @@
 # HomeLayoutSimple
-
 [![](https://jitpack.io/v/Jam741/HomeLayoutSimple.svg)](https://jitpack.io/#Jam741/HomeLayoutSimple)
-
 简洁的主页面控件
 ### To get a Git project into your build:
 ## Step 1. Add the JitPack repository to your build file

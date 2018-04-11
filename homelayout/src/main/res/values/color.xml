@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="selector_grey">#DDDDDD</color>
+
+    <color name="defaultTextColorNormal">#000000</color>
+    <color name="defaultTextColorSelected">#ff0000</color>
+
+</resources>

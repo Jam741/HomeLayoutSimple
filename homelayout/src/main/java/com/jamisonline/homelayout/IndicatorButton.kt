@@ -1,5 +1,6 @@
 package com.jamisonline.homelayout
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
@@ -99,6 +100,7 @@ class IndicatorButton @JvmOverloads constructor(context: Context, attrs: Attribu
         init()
     }
 
+    @SuppressLint("NewApi")
     private fun init() {
         orientation = VERTICAL
         gravity = Gravity.CENTER
@@ -119,6 +121,7 @@ class IndicatorButton @JvmOverloads constructor(context: Context, attrs: Attribu
             setTextSize(TypedValue.COMPLEX_UNIT_PX, this@IndicatorButton.textSize.toFloat())
             text = this@IndicatorButton.text
             setTextColor(this@IndicatorButton.textColorNormal)
+            setPadding(0,itemPadding,0,0)
         }
         tvUnreadNum.run { setTextSize(TypedValue.COMPLEX_UNIT_PX, unreadTextSize.toFloat()) }
         tvMsg.run { setTextSize(TypedValue.COMPLEX_UNIT_PX, msgTextSize.toFloat()) }
